@@ -40,12 +40,12 @@ const Navbar = (props: Props) => {
                 <div className="flex">
                 <button className='text-sm font-medium cursor-pointer text-[#303030] font-sans'>SHOP</button>
             <button>
-                <Image src='/assets/images/ArrowdownIcon.svg' alt="Drop down icon" width={15} height={15} className='mx-[10px]'/>
+                <Image src='/assets/images/ArrowdownIcon.svg' alt="Drop down icon" width={15} height={15} className='mx-[5px]'/>
             </button>
                 </div>
                 <div className="flex">
                 <button className='text-sm font-medium cursor-pointer text-[#303030] font-sans'>COLLECTIONS</button>
-                <button><Image src='/assets/images/ArrowdownIcon.svg' alt="Drop down icon" width={15} height={15} className='mx-[10px]'/>
+                <button><Image src='/assets/images/ArrowdownIcon.svg' alt="Drop down icon" width={15} height={15} className='mx-[5px]'/>
                 </button>
                 </div>
             </div>
