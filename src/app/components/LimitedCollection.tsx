@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Collection from './Collection'
 
@@ -48,7 +49,7 @@ const LimitedCollection = (props: Props) => {
 
   return (
     <div className='flex flex-col justify-center items-center'>
-       <h2 className='text-[24px] leading-[27px] font-[600] text-[#303030] font-sans tracking-wide text-center mt-[40px] mb-[10px]'>Shop our Limited Collection</h2>
+       <h2 className='text-[24px] leading-[27px] font-[600] text-[#303030] font-roboto tracking-normal text-center mt-[50px] mb-[20px]'>Shop our Limited Collection</h2>
        <div className="flex justify-center items-center flex-wrap">
         {
             Collections.map((card, index) => (
