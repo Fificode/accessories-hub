@@ -7,7 +7,7 @@ type Props = {}
 const AccessoriesIcons = (props: Props) => {
   return (
     <div className='flex justify-center items-center my-[30px] mx-[20px]'>
-        <div className="flex justify-center items-center ">
+        <div className="flex flex-col md:flex-row  justify-center items-center ">
         <div className="w-[150px] h-[150px] mx-[10px] flex flex-col justify-center items-center">
             <Image src='/assets/images/BraceletIcon.png' alt='Bracelet Icon' width={50} height={50}/>
             <h2 className='text-[18px] leading-[27px] font-[500] text-[#303030] font-sans tracking-normal py-[10px]'>Bracelets</h2>

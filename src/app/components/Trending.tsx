@@ -57,8 +57,8 @@ const [currentIndex, setCurrentIndex] = useState(0);
         }
     };
   return (
-    <div className='flex justify-center items-center w-full h-[400px] py-[20px] mt-[80px] mb-[20px] bg-white'>
-<div className="flex justify-center items-center w-[50%]">
+    <div className='flex flex-col md:flex-row justify-center items-center w-full h-auto md:h-[400px] py-[20px] mt-[80px] mb-[20px] bg-white'>
+<div className="flex justify-center items-center w-full md:w-[50%] p-2">
 <AliceCarousel
                     mouseTracking
                     items={renderTrendingImages()}
@@ -74,7 +74,7 @@ const [currentIndex, setCurrentIndex] = useState(0);
                 />
 </div>
 
-<div className="flex flex-col justify-center items-start w-[50%] ">
+<div className="flex flex-col justify-center items-start w-full py-2 px-[20px] my-[10px] md:my-0 md:w-[50%] ">
 <h1 className='py-[20px] text-[26px] leading-[27px] font-[600] text-[#303030] font-karla tracking-normal'>TRENDING IN ACCESSORIES HUB</h1>
 {/* <AliceCarousel
                    mouseTracking

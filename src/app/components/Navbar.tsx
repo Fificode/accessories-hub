@@ -1,12 +1,40 @@
 'use client'
-import React from 'react'
+import React, {useState} from 'react'
 import Image from 'next/image'
+import NavbarModal from './NavbarModal'
 
 type Props = {}
 
 const Navbar = (props: Props) => {
+
+    const [showNavbarModal, setShowNavbarModal] = useState(false);
+
+    const handleOpenNavbarModal = () => {
+        setShowNavbarModal(!showNavbarModal);
+    }
   return (
-    <div className='flex items-center w-full h-[100px] shadow-md py-2 fixed top-0 z-[100] bg-white'>
+    <div className='w-full h-[80px] md:h-auto shadow-md py-2 fixed top-0 z-[100] bg-white'>
+        
+         <div className="w-full flex items-center justify-around md:hidden">
+         <div className="flex md:hidden items-center py-[15px]">
+        <Image src="/assets/images/Logo.png" alt="Logo of Accessories HUB" width={20} height={20} className=' mx-[10px]' />
+           <h1 className='font-karla text-[16px] font-[700] tracking-[2px] '>ACCESSORIES HUB</h1>
+        </div>
+        <div className="">
+        <button className="w-[24px] h-[24px] md:hidden block  cursor-pointer"  onClick={handleOpenNavbarModal}>
+         <Image
+        className=''
+        src={showNavbarModal ? '/assets/images/CloseIcon.svg' : '/assets/images/MenuIcon.svg'}
+        alt="Menu Icon"
+        height={24}
+        width={24}
+              
+        />
+         </button>
+         </div>
+      </div>
+
+        <div className='hidden md:flex items-center'>
         <div className="flex flex-col w-full justify-end">
             <div className="h-[50px]"></div>
             <div className="border-[#C4C4C4] border w-full"></div>
@@ -51,6 +79,10 @@ const Navbar = (props: Props) => {
             </div>
             </div>
         </div>
+        </div>
+        {showNavbarModal && (
+            <NavbarModal  />
+        )}
     </div>
   )
 }

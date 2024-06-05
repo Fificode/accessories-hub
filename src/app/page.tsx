@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Navbar/>
      <Header /> 
      <AccessoriesIcons/>
@@ -22,6 +22,6 @@ export default function Home() {
      <HolidayGifts/>
      <FollowUs/>
      <Footer/>
-    </div>
+    </>
   );
 }
