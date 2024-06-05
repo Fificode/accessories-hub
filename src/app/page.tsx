@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <ServerLayout>
       <ClientLayout>
-    <div className="max-w-[100%]">
+        <div className="overflow-hidden">
       <Navbar/>
      <Header /> 
      <AccessoriesIcons/>
@@ -26,7 +26,7 @@ export default function Home() {
      <HolidayGifts/>
      <FollowUs/>
      <Footer/>
-    </div>
+     </div>
     </ClientLayout>
     </ServerLayout>
   );

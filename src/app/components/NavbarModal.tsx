@@ -6,7 +6,7 @@ type Props = {}
 const NavbarModal = (props: Props) => {
   return (
     <div>
-         <div className="fixed z-[100] left-0 top-[50px] w-full animate-scale-up-right" >
+         <div className="fixed z-[100] left-0 top-[50px] w-[100vw] animate-scale-up-right" >
          {/* <div className="flex justify-end h-[50px] items-start pt-[20px]">
                 <button className='mx-[10px]'>
                 <Image src="/assets/images/SearchIcon.svg" alt="Search Icon" width={16} height={18}/>

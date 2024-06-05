@@ -13,14 +13,14 @@ const Navbar = (props: Props) => {
         setShowNavbarModal(!showNavbarModal);
     }
   return (
-    <div className='w-full h-[80px] md:h-auto shadow-md py-2 fixed top-0 z-[100] bg-white'>
+    <div className='w-[100vw] h-[80px] md:h-auto shadow-md py-2 fixed top-0 z-[100] bg-white'>
         
          <div className="w-full flex items-center justify-between md:hidden">
          <div className="flex md:hidden items-center py-[15px]">
         <Image src="/assets/images/Logo.png" alt="Logo of Accessories HUB" width={20} height={20} className=' mx-[10px]' />
            <h1 className='font-karla text-[16px] font-[700] tracking-[2px] '>ACCESSORIES HUB</h1>
         </div>
-        <div className="">
+        <div className="mx-[5px]">
         <button className="w-[24px] h-[24px] md:hidden block  cursor-pointer"  onClick={handleOpenNavbarModal}>
          <Image
         className=''
@@ -45,7 +45,7 @@ const Navbar = (props: Props) => {
         </div>
 <div className="flex flex-col w-[60%] items-center mx-[20px]">
         <Image src="/assets/images/Logo.png" alt="Logo of Accessories HUB" width={25} height={25} className='py-[5px]' />
-           <h1 className='font-karla text-[22px] font-[700] tracking-[2px]'>ACCESSORIES HUB</h1>
+           <h1 className='font-karla text-[22px] font-[700] tracking-[2px] text-center'>ACCESSORIES HUB</h1>
         </div>
         <div className="flex flex-col w-full">
         <div className="flex justify-end h-[50px] mr-[85px]">

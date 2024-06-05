@@ -67,9 +67,9 @@ const [currentIndex, setCurrentIndex] = useState(0);
                 />
 </div>
 
-<div className="flex flex-col justify-center items-start w-full py-2 px-[20px] my-[10px] md:my-0 md:w-[50%] ">
+<div className="flex flex-col justify-center items-start w-full py-2 px-[20px] my-[10px] mb-[40px] md:w-[50%] ">
 <h1 className='py-[20px] text-[26px] leading-[27px] font-[600] text-[#303030] font-karla tracking-normal'>TRENDING IN ACCESSORIES HUB</h1>
-                <p className='pb-[20px] w-[50%] text-[18px] leading-[25px] font-[500] text-[#303030] font-sans tracking-normal'>Elevate your summer looks</p>
+                <p className='pt-[10px] pb-[30px] w-[50%] text-[18px] leading-[25px] font-[500] text-[#303030] font-sans tracking-normal'>Elevate your summer looks</p>
                 <button className='w-[180px] border-[2px] border-[#64330D] p-2 cursor-pointer text-[16px] leading-[21px] font-[500] text-white bg-[#64330D] hover:bg-[#f2e9dd] hover:text-[#303030] outline-none mb-[20px]'>SHOP NOW</button>
 
 </div>
