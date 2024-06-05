@@ -48,8 +48,8 @@ const LimitedCollection = (props: Props) => {
     
 
   return (
-    <div className='flex flex-col justify-center items-center'>
-       <h2 className='text-[20px] md:text-[24px] leading-[27px] font-[600] text-[#303030] font-sans tracking-normal text-center mt-[50px] px-[10px] mb-[20px] uppercase'>Shop our Limited Collection</h2>
+    <div className='flex flex-col justify-center items-center max-w-full'>
+       <h2 className='text-[20px] md:text-[24px] leading-[27px] font-[600] text-[#303030] font-sans tracking-normal text-center mt-[50px] px-[10px] mb-[20px] uppercase' data-aos="zoom-in">Shop our Limited Collection</h2>
        <div className="flex justify-center items-center flex-wrap">
         {
             Collections.map((card, index) => (

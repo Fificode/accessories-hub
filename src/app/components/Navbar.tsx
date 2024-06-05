@@ -15,7 +15,7 @@ const Navbar = (props: Props) => {
   return (
     <div className='w-full h-[80px] md:h-auto shadow-md py-2 fixed top-0 z-[100] bg-white'>
         
-         <div className="w-full flex items-center justify-around md:hidden">
+         <div className="w-full flex items-center justify-between md:hidden">
          <div className="flex md:hidden items-center py-[15px]">
         <Image src="/assets/images/Logo.png" alt="Logo of Accessories HUB" width={20} height={20} className=' mx-[10px]' />
            <h1 className='font-karla text-[16px] font-[700] tracking-[2px] '>ACCESSORIES HUB</h1>

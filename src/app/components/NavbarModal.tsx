@@ -6,8 +6,8 @@ type Props = {}
 const NavbarModal = (props: Props) => {
   return (
     <div>
-         <div className="fixed z-[100] left-0 top-[50px] w-[100vw]">
-         <div className="flex justify-end h-[50px] items-start pt-[20px]">
+         <div className="fixed z-[100] left-0 top-[50px] w-full animate-scale-up-right" >
+         {/* <div className="flex justify-end h-[50px] items-start pt-[20px]">
                 <button className='mx-[10px]'>
                 <Image src="/assets/images/SearchIcon.svg" alt="Search Icon" width={16} height={18}/>
                 </button>
@@ -20,7 +20,7 @@ const NavbarModal = (props: Props) => {
 </svg> 
             
                 </button>
-            </div>
+            </div> */}
     <div className='flex justify-center items-center bg-white py-[20px] w-[100%] h-auto'>
               <ul className='w-full list-none flex flex-col items-center cursor-pointer'>
                     <li className='py-[10px]'>

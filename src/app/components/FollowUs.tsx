@@ -40,9 +40,9 @@ const FollowUs = (props: Props) => {
 ]
 
   return (
-        <div className='flex flex-col justify-center items-center my-[10px]'>
-       <h2 className='text-[20px] md:text-[24px] leading-[27px] font-[600] text-[#303030] font-sans tracking-normal text-center mt-[50px] mb-[20px] uppercase'>FOLLOW US ON INSTAGRAM</h2>
-       <a href="https://www.instagram.com/accessorieshubworld?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className='font-[600] text-[16px] md:text-[18px] text-[#303030] font-sans tracking-normal underline underline-offset-4 my-[10px]'>@accessorieshubworld</a>
+        <div className='max-w-full flex flex-col justify-center items-center my-[10px]'>
+       <h2 className='text-[20px] md:text-[24px] leading-[27px] font-[600] text-[#303030] font-sans tracking-normal text-center mt-[50px] mb-[20px] uppercase' data-aos="zoom-in">FOLLOW US ON INSTAGRAM</h2>
+       <a href="https://www.instagram.com/accessorieshubworld?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className='font-[600] text-[16px] md:text-[18px] text-[#303030] font-sans tracking-normal underline underline-offset-4 my-[10px]' data-aos="zoom-in">@accessorieshubworld</a>
        <div className="flex justify-center items-center flex-wrap">
         {
             InstagramInfo.map((card, index) => (

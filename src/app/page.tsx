@@ -8,10 +8,14 @@ import Trending from "./components/Trending";
 import HolidayGifts from "./components/HolidayGifts";
 import FollowUs from "./components/FollowUs";
 import Footer from "./components/Footer";
+import ServerLayout from "./layout.server";
+import ClientLayout from "./layout";
 
 export default function Home() {
   return (
-    <>
+    <ServerLayout>
+      <ClientLayout>
+    <div className="max-w-[100%]">
       <Navbar/>
      <Header /> 
      <AccessoriesIcons/>
@@ -22,6 +26,8 @@ export default function Home() {
      <HolidayGifts/>
      <FollowUs/>
      <Footer/>
-    </>
+    </div>
+    </ClientLayout>
+    </ServerLayout>
   );
 }

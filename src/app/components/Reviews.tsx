@@ -61,8 +61,8 @@ const renderReviews = () => {
 }
 
   return (
-    <div className='w-full h-[250px] flex flex-col justify-center items-center p-4 bg-[#f2e9dd] my-[20px]'>
-<h2 className='text-[20px] md:text-[26px] leading-[27px] font-[700] text-[#303030] font-inter tracking-normal text-center py-[20px]'>REVIEWS FOR ACCESSORIES HUB</h2>
+    <div className='max-w-full h-[250px] flex flex-col justify-center items-center p-4 bg-[#f2e9dd] my-[20px]'>
+<h2 className='text-[20px] md:text-[26px] leading-[27px] font-[700] text-[#303030] font-inter tracking-normal text-center py-[20px]' data-aos="zoom-in">REVIEWS FOR ACCESSORIES HUB</h2>
 <AliceCarousel
                     mouseTracking
                     items={renderReviews()}

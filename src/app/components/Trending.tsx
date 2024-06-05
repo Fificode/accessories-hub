@@ -34,13 +34,6 @@ const Trending = (props: Props) => {
     </div>
         ))
     }
-//  const renderTrendingNames = () => {
-//     return Trends.map((card, index) => (
-// <div className='' key={index}>
-// <h2 className='text-[20px] leading-[25px] font-[500] text-[#303030] font-sans tracking-normal'>{card.name}</h2>
-// </div>
-//     ))
-// }
 
 const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -57,7 +50,7 @@ const [currentIndex, setCurrentIndex] = useState(0);
         }
     };
   return (
-    <div className='flex flex-col md:flex-row justify-center items-center w-full h-auto md:h-[400px] py-[20px] mt-[80px] mb-[20px] bg-white'>
+    <div className='flex flex-col md:flex-row justify-center items-center max-w-full h-auto md:h-[400px] py-[20px] mt-[80px] mb-[20px] bg-white'>
 <div className="flex justify-center items-center w-full md:w-[50%] p-2">
 <AliceCarousel
                     mouseTracking
@@ -76,21 +69,6 @@ const [currentIndex, setCurrentIndex] = useState(0);
 
 <div className="flex flex-col justify-center items-start w-full py-2 px-[20px] my-[10px] md:my-0 md:w-[50%] ">
 <h1 className='py-[20px] text-[26px] leading-[27px] font-[600] text-[#303030] font-karla tracking-normal'>TRENDING IN ACCESSORIES HUB</h1>
-{/* <AliceCarousel
-                   mouseTracking
-                   items={renderTrendingNames()}
-                   controlsStrategy="responsive"
-                   disableDotsControls
-                   keyboardNavigation={true}
-                   disableButtonsControls={true}
-                   autoPlay={true}
-                   autoPlayInterval={3000}
-                   activeIndex={currentIndex}
-                   onSlideChanged={syncCarousels}
-                   infinite={true}
-                   ref={nameCarouselRef}
-                   
-                /> */}
                 <p className='pb-[20px] w-[50%] text-[18px] leading-[25px] font-[500] text-[#303030] font-sans tracking-normal'>Elevate your summer looks</p>
                 <button className='w-[180px] border-[2px] border-[#64330D] p-2 cursor-pointer text-[16px] leading-[21px] font-[500] text-white bg-[#64330D] hover:bg-[#f2e9dd] hover:text-[#303030] outline-none mb-[20px]'>SHOP NOW</button>
 
