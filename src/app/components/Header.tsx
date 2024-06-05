@@ -10,7 +10,7 @@ const Header = (props: Props) => {
 <div className="flex flex-col items-start justify-center w-[50%] h-[500px] bg-[#f2e9dd] px-[50px]">
 <h1 className='text-[45px] leading-[60px] font-[900] text-[#303030] font-karla uppercase tracking-wide'>Where Elegance Meets Radiance</h1>
 <p className='text-[18px] leading-[27px] font-[500] text-[#303030] font-karla tracking-wide my-[20px] w-[450px]'>Lorem ipsum dolor sit amet consectetur, adipisicing elit Ipsum beatae tenetur.</p>
-<button className='w-[150px] border-[2px] border-[#64330D] p-3 cursor-pointer text-[16px] leading-[21px] font-[500] text-[#303030] bg-[#f2e9dd] hover:bg-white'>SHOP NOW</button>
+<button className='w-[150px] outline-none border-[2px] border-[#64330D] p-3 cursor-pointer text-[16px] leading-[21px] font-[500] text-[#303030] bg-[#f2e9dd] hover:bg-white'>SHOP NOW</button>
 </div>
 <div className="w-[50%] h-[500px] relative">
     <Image src='/assets/images/landingPageImage.jpeg' alt='Accessories Hub Landing page' 

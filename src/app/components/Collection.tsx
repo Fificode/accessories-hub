@@ -16,7 +16,7 @@ const Collection = (props: Props) => {
             <Image src={props.image} alt={`${props.name} Cover`} layout='fill' objectFit='cover' className='absolute inset-0 '/>
         </div>
         <div className="">
-            <button className='border-none py-[20px] underline text-[16px] leading-[27px] font-[500] text-[#303030] font-sans tracking-normal'>{props.name}</button>
+            <button className='border-none py-[20px] underline underline-offset-4 text-[16px] leading-[27px] font-[500] text-[#303030] font-sans tracking-normal'>{props.name}</button>
             </div>
     </div>
   )

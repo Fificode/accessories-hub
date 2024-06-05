@@ -4,16 +4,24 @@ import AccessoriesIcons from "./components/AccessoriesIcons";
 import About from "./components/About";
 import LimitedCollection from "./components/LimitedCollection";
 import Reviews from "./components/Reviews";
+import Trending from "./components/Trending";
+import HolidayGifts from "./components/HolidayGifts";
+import FollowUs from "./components/FollowUs";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Navbar/>
      <Header /> 
      <AccessoriesIcons/>
      <About/>
      <LimitedCollection/>
      <Reviews/>
+     <Trending/>
+     <HolidayGifts/>
+     <FollowUs/>
+     <Footer/>
     </div>
   );
 }
